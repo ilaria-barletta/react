@@ -7,7 +7,7 @@ function App() {
   return (
     <div className="App">
       <FunctionalGreeting />
-      <FunctionalGreetingWithProps />
+      <FunctionalGreetingWithProps greeting="good to meet you" name="Ily" />
     </div>
   );
 }
