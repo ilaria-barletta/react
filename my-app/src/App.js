@@ -12,6 +12,8 @@ import NestingComponents from './components/NestingComponents';
 import MethodsAsPropsParent from './components/MethodsAsPropsParent';
 import RenderingLists from './components/RenderingLists';
 import ControlledForm from './components/ControlledForm';
+import UncontrolledForm from './components/UncontrolledForm';
+
 
 function App() {
   return (
@@ -28,6 +30,7 @@ function App() {
       <MethodsAsPropsParent />
       <RenderingLists />
       <ControlledForm />
+      <UncontrolledForm />
     </div>
   );
 }
